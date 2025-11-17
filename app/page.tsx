@@ -10,21 +10,21 @@ export default function HomePage() {
       id: 1,
       title: "Modern Luxury Villa",
       description: "Contemporary design with sustainable materials and smart home integration.",
-      image: "/project.png",
+      image: "/meter.jpeg",
       category: "Residential"
     },
     {
       id: 2,
       title: "Commercial Complex",
       description: "Multi-purpose commercial space with innovative architectural solutions.",
-      image: "/project.png",
+      image: "/arcdraw.jpeg",
       category: "Commercial"
     },
     {
       id: 3,
       title: "Eco-Friendly Office",
       description: "Green building design focusing on energy efficiency and sustainability.",
-      image: "/project.png",
+      image: "/uncompletedstoreybuilding.jpeg",
       category: "Office"
     }
   ];

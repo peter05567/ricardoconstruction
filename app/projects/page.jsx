@@ -10,30 +10,30 @@ export default function Projects() {
   const allProjects = [
     {
       id: 1,
-      title: 'Modern Urban Villa',
+      title: 'Meter Fixing',
       description: 'A luxury residence combining modern design with natural materials.',
-      image: '/project.png',
+      image: '/meter.jpeg',
       category: 'Residential',
     },
     {
       id: 2,
-      title: 'Corporate Headquarters',
+      title: 'House Plan ',
       description: 'Sleek glass structure reflecting innovation and sophistication.',
-      image: '/corporate.png',
+      image: '/arcdraw.jpeg',
       category: 'Commercial',
     },
     {
       id: 3,
       title: 'Cultural Pavilion',
       description: 'A bold architectural statement celebrating community and art.',
-      image: '/project.png',
+      image: '/uncompleted.jpeg',
       category: 'Public',
     },
     {
       id: 4,
-      title: 'Seaside Resort',
+      title: 'House Wiring',
       description: 'Elegant retreat inspired by waves, light, and coastal textures.',
-      image: '/project.png',
+      image: '/house wiring.jpeg',
       category: 'Hospitality',
     },
     {
@@ -47,7 +47,7 @@ export default function Projects() {
       id: 6,
       title: 'Skyline Tower',
       description: 'High-rise marvel defining modern city living with striking geometry.',
-      image: '/wiring.jpg',
+      image: '/storey.jpeg',
       category: 'Residential',
     },
   ];
