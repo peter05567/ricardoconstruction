@@ -69,13 +69,13 @@ export default function About() {
           </h2>
 
           <p className="text-gray-300 leading-relaxed text-base md:text-lg">
-            At <span className="text-white font-semibold">Ricardo Architectural and Construction Works</span>,
-            we turn ideas into timeless designs...
+            At <span className="text-white font-semibold">Ricardo Architectural and Construction Works</span>,  
+            we don’t just create buildings—we craft spaces that tell stories, spark inspiration, and leave a lasting impression.
           </p>
 
-          <p className="text-gray-400 leading-relaxed text-base md:text-lg">
-            From concept to completion, we handle residential,
-            commercial, and industrial projects...
+          <p className="text-gray-400 leading-relaxed text-base md:text-lg mt-3">
+            From concept to completion, we guide you through every step, whether it’s a cozy home, a vibrant office, or a bold commercial project.  
+            Our goal is to turn your ideas into spaces that feel alive, meaningful, and unforgettable.
           </p>
 
           {/* Expand Section */}
@@ -86,18 +86,23 @@ export default function About() {
                 animate={{ opacity: 1, height: "auto" }}
                 exit={{ opacity: 0, height: 0 }}
                 transition={{ duration: 0.5 }}
-                className="overflow-hidden text-gray-400 leading-relaxed text-base md:text-lg"
+                className="overflow-hidden text-gray-400 leading-relaxed text-base md:text-lg mt-3"
               >
                 <p>
-                  Over the years, Ricardo Architecture has worked
-                  with clients across the region...
+                  Over the years, Ricardo Architectural Works has had the privilege of partnering with clients across the region,  
+                  transforming visions into remarkable realities and elegant solutions.
                 </p>
                 <p className="mt-3">
-                  Our philosophy is simple: design should inspire...
+                  Our philosophy is simple: <span className="text-white font-semibold">design should inspire, uplift, and enhance lives.</span>  
+                  Every choice we make, from lines and curves to materials, is intentional—so your space isn’t just seen, it’s felt.
+                </p>
+                <p className="mt-3">
+                  Whether it’s a personal sanctuary or a professional landmark, we create spaces that leave a lasting impression and spark joy for years to come.
                 </p>
               </motion.div>
             )}
           </AnimatePresence>
+
 
           {/* Toggle */}
           <motion.button

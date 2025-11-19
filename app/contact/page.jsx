@@ -95,12 +95,12 @@ export default function ContactPage() {
 
             {/* Social Media Links */}
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-6 shadow-lg">
-              <h4 className="text-xl font-bold mb-4 text-gray-900">Follow Us</h4>
+              <h4 className="text-xl font-bold mb-4 text-gray-900">Reach Us On</h4>
               <div className="flex space-x-4">
 
                 {/* Facebook */}
                 <a 
-                  href="https://facebook.com/YOUR_USERNAME" target="_blank" 
+                  href="https://facebook.com/RichardKwameAmankwaah" target="_blank" 
                   className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-lg transition-colors"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -163,6 +163,20 @@ export default function ContactPage() {
                     17.327h1.833L7.093 4.548H5.145l11.94 14.779z"/>
                   </svg>
                 </a>*/}
+                {/* Call */}
+                <a 
+                  href="tel:+233541329311"
+                  target="_blank"
+                  className="bg-gray-600 hover:bg-gray-700 text-white p-3 rounded-lg transition-colors"
+                >
+                  <svg 
+                    className="w-5 h-5" 
+                    fill="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 16.92v3a2.05 2.05 0 0 1-2.23 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3.12 10.86 19.79 19.79 0 0 1 .05 2.23 2.05 2.05 0 0 1 2.05 0h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L6.46 8.89a16 16 0 0 0 8.65 8.65l2.25-1.84a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </a>
 
               </div>
             </div>
