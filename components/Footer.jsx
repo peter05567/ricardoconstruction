@@ -8,8 +8,7 @@ export default function Footer() {
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-6 mb-6">
           <a 
-            href="https://facebook.com" 
-            target="_blank" 
+            href="https://facebook.com/RichardKwameAmankwaaAddo(Pastor Ricardo)" target="_blank"  
             rel="noopener noreferrer"
             className="hover:text-red-600 transition-colors duration-300"
             aria-label="Facebook"

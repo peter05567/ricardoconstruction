@@ -287,19 +287,19 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Sarah Johnson",
+                name: "Mr Kwabena Amponsah Acheampong ",
                 role: "Homeowner",
                 content: "Ricardo Architectural transformed our dream home into reality. Their attention to detail and innovative design solutions exceeded our expectations.",
                 rating: 5
               },
               {
-                name: "Michael Chen",
+                name: "Bishop Joseph Anane Adusei",
                 role: "Business Owner",
                 content: "Professional, reliable, and creative. They delivered our commercial project on time and within budget. Highly recommend their services.",
                 rating: 5
               },
               {
-                name: "Emily Rodriguez",
+                name: "Frank Ofosu Appiah",
                 role: "Property Developer",
                 content: "Outstanding architectural vision combined with practical construction expertise. They consistently deliver exceptional results.",
                 rating: 5

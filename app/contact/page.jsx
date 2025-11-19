@@ -100,7 +100,7 @@ export default function ContactPage() {
 
                 {/* Facebook */}
                 <a 
-                  href="https://facebook.com/RichardKwameAmankwaah" target="_blank" 
+                  href="https://facebook.com/RichardKwameAmankwaaAddo(Pastor Ricardo)" target="_blank" 
                   className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-lg transition-colors"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
