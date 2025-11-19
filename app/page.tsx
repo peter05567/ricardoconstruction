@@ -8,25 +8,25 @@ export default function HomePage() {
   const featuredProjects = [
     {
       id: 1,
-      title: "Modern Luxury Villa",
-      description: "Contemporary design with sustainable materials and smart home integration.",
-      image: "/meter.jpeg",
-      category: "Residential"
+      title: 'Meter Fixing',
+      description: 'Installation and configuration of an electrical meter to ensure safe and accurate power distribution.',
+      image: '/meter.jpeg',
+      category: 'Electrical',
     },
     {
       id: 2,
-      title: "Commercial Complex",
-      description: "Multi-purpose commercial space with innovative architectural solutions.",
-      image: "/arcdraw.jpeg",
-      category: "Commercial"
+      title: 'House Plan',
+      description: 'Professional architectural drawing showing layout, dimensions, and structural planning for a residential building.',
+      image: '/arcdraw.jpeg',
+      category: 'Architecture',
     },
     {
       id: 3,
-      title: "Eco-Friendly Office",
-      description: "Green building design focusing on energy efficiency and sustainability.",
-      image: "/uncompletedstoreybuilding.jpeg",
-      category: "Office"
-    }
+      title: 'Uncompleted Building Work',
+      description: 'Ongoing construction project showing blockwork, reinforcement, and structural development.',
+      image: '/uncompleted.jpeg',
+      category: 'Construction',
+    },
   ];
 
   const services = [

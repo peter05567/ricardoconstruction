@@ -11,46 +11,47 @@ export default function Projects() {
     {
       id: 1,
       title: 'Meter Fixing',
-      description: 'A luxury residence combining modern design with natural materials.',
+      description: 'Installation and configuration of an electrical meter to ensure safe and accurate power distribution.',
       image: '/meter.jpeg',
-      category: 'Residential',
+      category: 'Electrical',
     },
     {
       id: 2,
-      title: 'House Plan ',
-      description: 'Sleek glass structure reflecting innovation and sophistication.',
+      title: 'House Plan',
+      description: 'Professional architectural drawing showing layout, dimensions, and structural planning for a residential building.',
       image: '/arcdraw.jpeg',
-      category: 'Commercial',
+      category: 'Architecture',
     },
     {
       id: 3,
-      title: 'Cultural Pavilion',
-      description: 'A bold architectural statement celebrating community and art.',
+      title: 'Uncompleted Building Work',
+      description: 'Ongoing construction project showing blockwork, reinforcement, and structural development.',
       image: '/uncompleted.jpeg',
-      category: 'Public',
+      category: 'Construction',
     },
     {
       id: 4,
       title: 'House Wiring',
-      description: 'Elegant retreat inspired by waves, light, and coastal textures.',
+      description: 'Complete wiring setup for a new home, including sockets, lighting points, and safety fixtures.',
       image: '/house wiring.jpeg',
-      category: 'Hospitality',
+      category: 'Electrical',
     },
     {
       id: 5,
-      title: 'Transformer',
-      description: 'Dynamic workspace designed to foster creativity and collaboration.',
+      title: 'Transformer Installation',
+      description: 'Professional setup and connection of a power transformer for stable electrical distribution.',
       image: '/wiring.jpg',
-      category: 'Wiring',
+      category: 'Electrical',
     },
     {
       id: 6,
-      title: 'Skyline Tower',
-      description: 'High-rise marvel defining modern city living with striking geometry.',
+      title: 'Storey Building Construction',
+      description: 'Development of a multi-storey residential structure with reinforced foundations and concrete work.',
       image: '/storey.jpeg',
-      category: 'Residential',
+      category: 'Construction',
     },
   ];
+
 
   // Simulate loading with skeleton screens
   useEffect(() => {
@@ -172,9 +173,9 @@ export default function Projects() {
                 </motion.div>
 
                 {/* Default State - Always Visible */}
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 ">
                   <div className="flex items-center justify-between mb-2">
-                    <h3 className="text-xl font-semibold text-white">
+                    <h3 className="text-xl font-semibold text-white ">
                       {project.title}
                     </h3>
                     <span className="bg-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold">

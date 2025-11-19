@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Mail, Facebook, Instagram, Phone } from 'lucide-react'
+import { Mail, Facebook,  Phone, MessageCircle } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -17,20 +17,20 @@ export default function Footer() {
             <Facebook size={24} />
           </a>
           <a 
-            href="https://instagram.com" 
+            href="https://wa.me/233541329311"
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-red-600 transition-colors duration-300"
-            aria-label="Instagram"
+            aria-label="Message"
           >
-            <Instagram size={24} />
+            <MessageCircle size={24} />
           </a>
           <a 
-            href="https://wa.me/233541329311" 
+            href="tel:+233541329311" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-red-600 transition-colors duration-300"
-            aria-label="WhatsApp"
+            aria-label="Phone"
           >
             <Phone size={24} />
           </a>
