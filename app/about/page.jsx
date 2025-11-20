@@ -150,7 +150,7 @@ export default function About() {
           {/* CEO Bio */}
         <div className="space-y-3">
           <h3 className="text-3xl font-bold text-red-500">
-            Richard Kwame Amankwaah Addo
+            Richard Kwame Amankwaa Addo
           </h3>
           <p className="text-gray-400 text-lg italic">CEO & Lead Architect</p>
 
